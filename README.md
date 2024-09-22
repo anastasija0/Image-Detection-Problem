@@ -1,4 +1,18 @@
-# Audio Video Sync
+# Circle Bounce Detection in Video and Audio
+
+This project focuses on detecting circle bounces in both video and audio streams. It utilizes image and audio processing techniques to identify shapes in video frames, applying custom logic to differentiate between circles and rectangles. The project also processes audio data to detect peaks corresponding to bounce events.
+
+# Key Features:
+**Video Processing:** Detects circles and rectangles in video frames and identifies their positions and interactions with boundaries or other shapes.
+**Audio Processing:** Uses a Butterworth bandpass filter and peak detection to identify bounce sounds in the audio stream.
+**Bounce Detection:** Combines video and audio analysis to count bounce events and determine the precise frame of the first bounce.
+# Technologies Used:
+**Python:** Core implementation.
+**NumPy:** For numerical operations and data manipulation.
+**SciPy:** Used for signal filtering with custom Butterworth filters.
+**ImageIO:** Handles video frame extraction.
+**Matplotlib:** Used to plot frequency spectrum in audio analysis.
+
 # Description
 You are an indie game developer who's thrown themselves on truly understanding how a ball bounces - but you have one small problem - you have no balls to bounce, and going to a nearby basketball court seems like an unnecessary hassle. Luckily, you've got your hands on some animations of circles bouncing around a screen, accompanied by audio files of their bounces. If you could align the video/audio files you just might be able to understand the bouncing mechanics and save yourself from stepping outside!
 
