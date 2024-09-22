@@ -4,13 +4,20 @@ This project focuses on detecting circle bounces in both video and audio streams
 
 # Key Features:
 **Video Processing:** Detects circles and rectangles in video frames and identifies their positions and interactions with boundaries or other shapes.
+
 **Audio Processing:** Uses a Butterworth bandpass filter and peak detection to identify bounce sounds in the audio stream.
+
 **Bounce Detection:** Combines video and audio analysis to count bounce events and determine the precise frame of the first bounce.
+
 # Technologies Used:
 **Python:** Core implementation.
+
 **NumPy:** For numerical operations and data manipulation.
+
 **SciPy:** Used for signal filtering with custom Butterworth filters.
+
 **ImageIO:** Handles video frame extraction.
+
 **Matplotlib:** Used to plot frequency spectrum in audio analysis.
 
 # Description
